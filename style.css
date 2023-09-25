@@ -1,0 +1,124 @@
+:root {
+    --red: #fa6262;
+    --blue: #cae9f2;
+    --bg-gray: #fbfbfb;
+    --yellow: #fffacc;
+    --green: #e2efc7;
+    --pink: #efc7c7;
+    --font-color: #000;
+    --blue-solid: #a1dbed;
+    --green-solid: #d4eda1;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 71px;
+    padding-top: 40px;
+    color: var(--red);
+  }
+  main {
+    display: flex;
+
+  }
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+    gap: 32px;
+    margin-left: 60px;
+  }
+  .card {
+    background-color: var(--bg-gray);
+    height:332px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(231, 231, 231);
+    position: relative;
+  }
+.cardTops {
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+ .cardTag {
+    height: 23px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ .cornerButton {
+    background-color: var(--red);
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.arrow-white {
+    width: 50%;
+    height: 50%;
+}
+ #gbg{
+    background-color: var(--yellow);
+
+ }
+ #office{
+    background-color: var(--blue);
+ }
+ #animal{
+    background-color: var(--green);
+ }
+ #job{
+    background-color: var(--green);
+ }
+ #money{
+    background-color: var(--red);
+ }
+ .cardH{
+    font-size: 36px;
+ }
+  .mainContent {
+    background-color: brown;
+    width: 40%;
+    height: 156px;
+  }
+.mainH {
+    font-size: 60px;
+}
+.mainP {
+    font-size: 24px;
+}
+.link-buttons{
+    display: flex;
+    gap: 10px;
+
+}
+.link-buttons > div {
+    width: 195px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.learnMore {
+    background-color: var(--blue);
+}
+.end-button {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+    right: 0;
+}
